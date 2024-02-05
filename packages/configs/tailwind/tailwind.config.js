@@ -1,0 +1,67 @@
+/** @type {import('tailwindcss').Config} */
+
+module.exports = {
+  content: [
+    './src/**/*.{vue,js,ts}',
+    './pages/**/*.{html,vue}',
+    './components/**/*.{html,js,vue}',
+    './composables/**/*.{vue,js}',
+    './layouts/**/*.vue',
+    './plugins/**/*.{js,ts}',
+  ],
+  theme: {
+    extend: {
+    },
+  },
+  plugins: [],
+  daisyui: {
+    themes: [
+      {
+        light: {
+          primary: '#4B6BFB',
+          'primary-focus': '#0B37FA',
+          'primary-content': '#000000',
+          secondary: '#38bdf8',
+          'secondary-focus': '#0ea5e9',
+          'secondary-content': '#000000',
+          accent: '#37CDBE',
+          'accent-focus': '#2AA69A',
+          'accent-content': '#FFFFFF',
+          neutral: '#1e293b',
+          'neutral-focus': '#0f172a',
+          'neutral-content': '#334155',
+          'base-100': '#FFFFFF',
+          'base-200': '#f1f5f9',
+          'base-300': '#e2e8f0',
+          'base-content': '#334155',
+          info: '#84BDE6',
+          success: '#36D399',
+          warning: '#F8DE68',
+          error: '#DF4958',
+        },
+        dark: {
+          primary: '#4B6BFB',
+          'primary-focus': '#0B37FA',
+          'primary-content': '#FFFFFF',
+          secondary: '#38bdf8',
+          'secondary-focus': '#0ea5e9',
+          'secondary-content': '#FFFFFF',
+          accent: '#37CDBE',
+          'accent-focus': '#2AA69A',
+          'accent-content': '#FFFFFF',
+          neutral: '#1e293b',
+          'neutral-focus': '#0f172a',
+          'neutral-content': '#FFFFFF',
+          'base-100': '#111827',
+          'base-200': '#030712',
+          'base-300': '#000000',
+          'base-content': '#d1d5db',
+          info: '#84BDE6',
+          success: '#36D399',
+          warning: '#F8DE68',
+          error: '#DF4958',
+        },
+      },
+    ],
+  },
+}
