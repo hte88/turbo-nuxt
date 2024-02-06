@@ -49,8 +49,19 @@
 
 Run the following command:
 
+- Install
 ```sh
 pnpm install
+```
+
+- Start both doctor with admin
+```sh
+pnpm dev
+```
+
+- Start only doctor
+```sh
+pnpm --filter @repo/doctor dev
 ```
 
 ## What's inside?
