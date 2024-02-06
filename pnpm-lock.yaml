@@ -38,9 +38,6 @@ importers:
       '@pinia/nuxt':
         specifier: ^0.4.11
         version: 0.4.11(typescript@5.3.3)(vue@3.4.15)
-      '@quasar/extras':
-        specifier: ^1.16.9
-        version: 1.16.9
       '@repo/configs':
         specifier: workspace:*
         version: link:../../packages/configs
@@ -80,9 +77,6 @@ importers:
       postcss:
         specifier: ^8.4.33
         version: 8.4.33
-      quasar:
-        specifier: ^2.14.3
-        version: 2.14.3
       sass:
         specifier: ^1.70.0
         version: 1.70.0
@@ -2291,10 +2285,6 @@ packages:
 
   /@polka/url@1.0.0-next.24:
     resolution: {integrity: sha512-2LuNTFBIO0m7kKIQvvPHN6UE63VjpmL9rnEEaOOaiSPbZK+zUOYIzBAWcED+3XYzhYsd/0mD57VdxAEqqV52CQ==}
-    dev: true
-
-  /@quasar/extras@1.16.9:
-    resolution: {integrity: sha512-SlOhwzXyPQHWgQIS2ncyDdYdksCJvUYNtgsDQqzAKEG3r3d/ejOxvThle79HTK3Q6HB+gQWFG21Ux00Osr5XSw==}
     dev: true
 
   /@rollup/plugin-alias@5.1.0(rollup@4.9.6):
@@ -8423,11 +8413,6 @@ packages:
   /punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
-    dev: true
-
-  /quasar@2.14.3:
-    resolution: {integrity: sha512-7WzbtZxykLn2ic5oNpepZ2ZjDVpmxyVD4KC9rWe+Ia+4Er61svGr4jOuttN+Ok7IerLSCmKIRyjQMgasF60rFA==}
-    engines: {node: '>= 10.18.1', npm: '>= 6.13.4', yarn: '>= 1.21.1'}
     dev: true
 
   /queue-microtask@1.2.3:
