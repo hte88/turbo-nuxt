@@ -1,6 +1,54 @@
-# Turborepo Tailwind CSS starter
+# Turborepo 
 
-This is an official starter Turborepo.
+## Features
+
+- ⚡️ [Nuxt 3](https://nuxt.com/), [Vue 3](https://github.com/vuejs/core), [pnpm](https://pnpm.io/)
+- 📦 [Vuetify 3](https://vuetifyjs.com/en/)
+- 😃 [Use icons from Material Design Icons](https://materialdesignicons.com/)
+- 🍍 [State Management via Pinia](https://pinia.vuejs.org/)
+- 🎨 [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework
+- 🚀 [VueUse](https://vueuse.org/) - Collection of useful composition APIs
+- 🌍 [I18n](https://kazupon.github.io/vue-i18n/) - Internationalization
+- 🦾 TypeScript, of course
+- 🔥 Use [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/)
+
+### Style
+
+- [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework
+
+### Icons
+
+- [Use icons from Material Design Icons](https://materialdesignicons.com/)
+
+### Plugins
+
+- [Vuetify 3](https://vuetifyjs.com/en/)
+- [Vue Router](https://github.com/vuejs/router)
+- [Axios](https://axios-http.com/fr/docs/intro)
+- [Pinia](https://pinia.vuejs.org) - Intuitive, type safe, light and flexible Store for Vue using the composition api
+- [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - components auto import
+- [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - Directly use Vue Composition API and others without importing
+- [Vue I18n](https://github.com/intlify/vue-i18n-next) - Internationalization
+- [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
+- [`@vueuse/head`](https://github.com/vueuse/head) - manipulate document head reactively
+
+### Coding Style
+
+- Use Composition API with [`<script setup>`](https://vuejs.org/guide/extras/composition-api-faq.html)
+- [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/)
+
+### Dev tools
+
+- [TypeScript](https://www.typescriptlang.org/)
+- [NuxtTools](https://github.com/vitest-dev/vitest) - Unit testing powered by Vite
+- [pnpm](https://www.npmjs.com/)
+- [VS Code Extensions](./.vscode/extensions.json)
+  - [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) - Vue 3 `<script setup>` IDE support
+  - [i18n Ally](https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally) - All in one i18n support
+  - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+  - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) -[TailwindCSS](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+
+
 
 ## Using this example
 
