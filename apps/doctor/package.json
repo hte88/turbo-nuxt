@@ -28,13 +28,13 @@
     "autoprefixer": "^10.4.16",
     "nuxt": "^3.10.0",
     "nuxt-icon": "^0.4.2",
-    "nuxt-quasar-ui": "^2.0.7",
     "pinia": "^2.1.4",
     "postcss": "^8.4.33",
     "quasar": "^2.14.3",
     "sass": "^1.70.0",
     "tailwindcss": "^3.4.0",
     "vue": "^3.4.15",
-    "vue-router": "^4.2.5"
+    "vue-router": "^4.2.5",
+    "vuetify-nuxt-module": "^0.10.3"
   }
 }

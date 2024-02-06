@@ -1,17 +1,23 @@
 <script setup lang="ts">
-import { useQuasar } from 'quasar'
+const theme = useTheme()
+const darkMode = ref(false)
 
-const { dark } = useQuasar()
-
-const themeIcon = computed(() => (dark.isActive ? 'dark_mode' : 'light_mode'))
+const toggleTheme = () => {
+  theme.global.name.value = darkMode.value ? 'dark' : 'light'
+}
 </script>
 <template>
-  <q-toggle
-    :model-value="dark.isActive"
-    checked-icon="dark_mode"
-    unchecked-icon="light_mode"
-    size="3rem"
-    @update:model-value="(val: any) => dark.set(val)"
-  />
-  {{ themeIcon }}
+  <v-app>
+    <v-row class="d-flex align-center justify-center">
+      <v-col cols="auto">
+        <v-switch
+          inset
+          color="info"
+          v-model="darkMode"
+          @change="toggleTheme()"
+          :label="`It's ${darkMode ? 'Dark' : 'Light'}!`"
+        />
+      </v-col>
+    </v-row>
+  </v-app>
 </template>
